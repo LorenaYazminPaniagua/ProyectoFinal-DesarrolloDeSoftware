@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.izquierda{
+	width: 30%;
+   height: auto;
+   text-align: center;
+}
+
+.centro{
+	width: 60%;
+   height: auto;
+
+}
+
+main{
+   display: flex;
+}
+
+.titulin{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	display: flex;
+	height: 80px;
+	border: 1px #af6434;
+	background-color: #af6434;
+}
+
+.boton-atras{
+	position: absolute;
+	right: 0;
+	margin-top: 7px;
+	width: 35px;
+	height: 35px;
+}
+
+.titulo{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+
+}
+.login{
+	border: 5px #164221;
+	width: 60%;
+	height: 550px;
+	background-color: darkgreen;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 0px, 0px, 20px, rgba(0,0,00.75);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.log{
+	display: flex;
+}
+
+.tipo{
+	display: flex;
+	text-align: center;
+}
+
+form{
+	display: block;
+	box-sizing: border-box;
+	padding: 30px;
+	width: 100%;
+	height: 100%;
+	backdrop-filter: brightness(40%);
+	flex-direction: column;
+	display: flex;
+	gap: 5px;
+	background-color: whitesmoke;
+}
+
+H2{
+	font-weight: auto;
+	font-size: 40px;
+	margin-bottom: 10px;
+	color:black;
+	font-family: times new roman;
+}
+
+label{
+	color: black;
+	text-transform: uppercase;
+	padding-left: 10px;
+	letter-spacing: 1px;
+	font-size: 10px;
+}
+
+input{
+	background-color: black;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 10px;
+	padding: 0px 10px;
+	border: none;
+	margin-bottom: 20px;
+	color: white;
+}
+
+button{ /*boton siguiente*/
+	background-color: darkgreen;
+	text-transform: uppercase;
+	height: 30px;
+	line-height: 40px;
+	border-radius: 5px;
+	border: 2px #434B32;
+	margin: 20px 20px;
+	color: white;
+	font-size: 15px;
+}
+
+body{
+	background-image: url('Imagenes/Fondo.jpg');
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat; 
+   height: 100%; 
+   margin: auto;
+   font-family: 'Arial', sans-serif;
+}

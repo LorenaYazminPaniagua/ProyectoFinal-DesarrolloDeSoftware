@@ -1,0 +1,103 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Imagenes/Fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;  /* Asegura que el body ocupe toda la altura de la pantalla */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra todo el contenido horizontalmente */
+    align-items: center;     /* Centra todo el contenido verticalmente */
+    font-family: 'Arial', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center; /* Centra las secciones horizontalmente */
+    align-items: center;     /* Centra las secciones verticalmente */
+    width: 100%;
+    height: 100%;   /* Asegura que ocupe toda la pantalla */
+}
+
+.centro {
+    width: 100%;
+    max-width: 600px;   /* Limita el tamaño del formulario */
+    padding: 20px;
+    display: flex;
+    justify-content: center;  /* Centra el formulario horizontalmente */
+    align-items: center;      /* Centra el formulario verticalmente */
+    text-align: center;
+}
+
+.login {
+    width: 100%;
+    padding: 30px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+
+h2 {
+    font-weight: auto;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Times New Roman", serif;
+}
+
+label {
+    color: black;
+    text-transform: uppercase;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+
+input {
+    background-color: black;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    background-color: darkgreen;
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 2px solid #434B32;
+    margin: 20px 0;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: whitesmoke;
+    padding: 30px;
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 20px;
+    backdrop-filter: brightness(40%);
+}
